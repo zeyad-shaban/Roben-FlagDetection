@@ -1,5 +1,5 @@
 /data/
-/data/flag_model.pt
+/data/checkpoints/flag_model.pth
 
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm,python,venv
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,python,venv
