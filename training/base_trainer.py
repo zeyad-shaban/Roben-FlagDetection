@@ -24,7 +24,6 @@ class BaseTrainer:
         :param num_epochs: number of epochs...
         :return: None
         """
-        print("here")
         for epoch in range(num_epochs):
             loss = self.train_epoch(dataloader)
             if self.lr_scheduler:

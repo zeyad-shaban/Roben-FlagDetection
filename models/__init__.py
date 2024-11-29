@@ -1,1 +1,1 @@
-from .model import load_model_retinanet
+from .retinanet import load_model_retinanet
