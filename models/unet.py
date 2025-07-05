@@ -1,6 +1,6 @@
 import torch
 
-def load_model_unet(checkpoint_path: str = None) -> torch.nn.Module:
+def load_model_unet(checkpoint_path: str = "") -> torch.nn.Module:
     """
     ?checkpoint_path: checkpoint file path for the retinenet weights, leave None to not load
     Uses retinaNet model
